@@ -44,6 +44,7 @@ def unique_perm(int1):
 
 if __name__ == "__main__":
     first=123456
+    #second=112233445566
     second=112233
     print_list = []
     #初めのは、重複あり順列でよい
