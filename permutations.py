@@ -44,11 +44,11 @@ def unique_perm(int1):
 
 if __name__ == "__main__":
     first=123456
-    second=112233445566
+    second=112233
     print_list = []
     #初めのは、重複あり順列でよい
     print_list = simple_perm(first)
-    print("順列の個数：{0}".format(len(print_list)))
+    print("順列の個数(重複あり)：{0}".format(len(print_list)))
     print(print_list)
     #二つ目のは重複なし順列で
     print_list = []
